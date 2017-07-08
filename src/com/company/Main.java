@@ -35,8 +35,6 @@ public class Main {
 
         DeluxBaguet deluxBaguet = new DeluxBaguet("Hvit", "Elg");
         System.out.println("Base price of Delux baguett is " + deluxBaguet.getBasePrice() + " crowns");
-        deluxBaguet.setAdditions(pepsi,pringles);
         System.out.println("Final price with " + deluxBaguet.getChosenAdditions() + " additions is " + deluxBaguet.finalPrice() + " crowns");
-
     }
 }
